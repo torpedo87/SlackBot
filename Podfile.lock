@@ -1,0 +1,49 @@
+PODS:
+  - SKClient (4.1.0):
+    - SKCore
+  - SKCore (4.1.2)
+  - SKRTMAPI (4.1.2):
+    - SKCore
+    - SKWebAPI
+    - Starscream
+  - SKServer (4.0.0):
+    - SKCore
+    - SKWebAPI
+    - Swifter
+  - SKWebAPI (4.1.3):
+    - SKCore
+  - SlackKit (4.1.0):
+    - SKClient
+    - SKCore
+    - SKRTMAPI
+    - SKServer
+  - Starscream (3.0.6)
+  - Swifter (1.4.5)
+
+DEPENDENCIES:
+  - SlackKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SKClient
+    - SKCore
+    - SKRTMAPI
+    - SKServer
+    - SKWebAPI
+    - SlackKit
+    - Starscream
+    - Swifter
+
+SPEC CHECKSUMS:
+  SKClient: 8f101e44df0801fd02247ca1e75458fff00c2362
+  SKCore: 8322401f4fe8418e5d3d34059b59d42faddab86d
+  SKRTMAPI: d6f9555b69dff9358f0bf798eb23bb3f2f03e497
+  SKServer: 1228843063095ac80b074abd7e0dfac30735518f
+  SKWebAPI: 1b604f4e4988defae5cc7aa8454c4967ad35f9b3
+  SlackKit: cf4708dd68d43c4bdc0edbac5b0d73c568416754
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Swifter: eb2bc1d192a1c09169c7fefd01971565fa940521
+
+PODFILE CHECKSUM: d69ffdc95dc86fd4536836ef760144bbcf5ed372
+
+COCOAPODS: 1.5.0
